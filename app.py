@@ -6,6 +6,10 @@ About = "Lorem ipsum odor amet, consectetuer adipiscing elit. Consectetur aenean
 def hello_world():
     return render_template('Bootstrap.html', about=About)
 
+@app.route('/gene')
+def gene():
+    return render_template('gene.html')
+    
 if __name__ == "__main__":
   app.run(host = "0.0.0.0",debug = True)
 

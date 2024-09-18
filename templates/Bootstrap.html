@@ -9,17 +9,17 @@
   
   <style>
     #banner {
-      border:4px solid; 
+      border:3px solid; 
       border-radius:5px;
-      width: 985px;
-      height: 95px;
+      width: 997px;
+      height: 97px;
 
     }
     
     .button{
       border:3px solid;
       margin: 5 0 5 5;
-      border-radius: 25px;
+      border-radius: 20px;
     }
     
     #para {
@@ -30,27 +30,30 @@
       background-color: #FFFFFF;
     }
   </style>
-  
+  <!-- background-image:url(https://6b33880c-f02a-4721-88fb-4dcd718af1f0-00-mzsxa9vhtpmn.sisko.replit.dev/static/bg.jpg); -->
   <body style="border:2px; paddding:2px;">
+    {% include 'nav.html'%}
     <div class="d-flex align-items-center">
-      <h1 style="font-size:80px; border:2px solid; margin:15 15 15 20 ;background-image:url(https://6b33880c-f02a-4721-88fb-4dcd718af1f0-00-mzsxa9vhtpmn.sisko.replit.dev/static/bg.jpg); border-radius: 20px; width:457px; font-family:Brittanic;">&nbspDATABASE</h1> 
+      <h1 style="font-size:80px;font-feature-settings; margin:15 15 15 20 ; border-radius: 20px; width:457px; font-family:Brittanic;">&nbspDATABASE</h1> 
       
       <img id="banner" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExengxZ2ZxOTd6N2dxMGx1c2FieGgwdno2YWM4bHlxeWtiMzFza3VjNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o85xGrC7nPVbA2y3K/giphy.gif"> 
     </div> 
-    
+    <!-- 
     <div style="margin-left:20px; margin-right:35px; min-width:200px;">
         <button class="button"><h2>&nbspGene&nbsp</h2></button>
         &nbsp<button class="button""><h2>&nbspGenome&nbsp</h2></button>
         &nbsp<button class="button"><h2>&nbspProteins&nbsp</h2></button>
         &nbsp<button class="button"><h2>&nbspNucleotides&nbsp</h2></button>
         &nbsp<button class="button"><h2>&nbspMore...&nbsp</h2></button>
+    </div> -->
+    <div class="a b c">
+    <h2 class="text-center p-2" style="font-size:40px; padding:1; border:2px solid; min-width:200px;       border-radius:5px ;margin:5 550 10 550;font-family:Brittanic;"> ABOUT SANKDAT DB
+    </h2>
     </div>
-      
-      <h2 class="text-center p-2" style="font-size:40px; padding:1; border:2px solid; min-width:200px; border-radius:5px ;margin:10 550 10 500;font-family:Brittanic; background-image:url(https://6b33880c-f02a-4721-88fb-4dcd718af1f0-00-mzsxa9vhtpmn.sisko.replit.dev/static/bg.jpg)"> ABOUT SANKDAT DB </h2>
 
-      <p id="para" class="lead">
+    <p id="para" class="lead">
         {{about}} 
-      </p>
+    </p>
     <br>
     <div class="text-center">
       <button class="button btn-lg" style="margin: auto 5 10 5; border-radius:5px; height:50px; font-size:20px;">&nbspContact Us&nbsp</button>
