@@ -1,34 +1,56 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Fifth navbar example">
-  <div class="container-fluid">
-    <a class="navbar-brand" style="font-family:Brittanic">DATASET</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Dropdown</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS for Dropdown on Hover -->
+    <style>
+        /* Show the dropdown on hover */
+        .navbar-nav .dropdown:hover .dropdown-menu {
+            display: block;
+            margin-top: 0; /* Adjust this to position the dropdown */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="font-family:Brittanic">SANKALP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExample05">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="https://6b33880c-f02a-4721-88fb-4dcd718af1f0-00-mzsxa9vhtpmn.sisko.replit.dev/gene">Gene</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active">Genome</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form role="search">
-        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-      </form>
-    </div>
-  </div>
-</nav>
-<div style="height:70px"></div>
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://6b33880c-f02a-4721-88fb-4dcd718af1f0-00-mzsxa9vhtpmn.sisko.replit.dev/?#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://6b33880c-f02a-4721-88fb-4dcd718af1f0-00-mzsxa9vhtpmn.sisko.replit.dev/gene">Gene</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://6b33880c-f02a-4721-88fb-4dcd718af1f0-00-mzsxa9vhtpmn.sisko.replit.dev/Genome">Genome</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#">More</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Ask a question</a></li>
+                            <li><a class="dropdown-item" href="#">Contribute</a></li>
+                            <li><a class="dropdown-item" href="#">Register</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div style="height:70px"></div>
+    <!-- Bootstrap JS -->  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

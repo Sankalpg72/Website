@@ -9,6 +9,10 @@ def hello_world():
 @app.route('/gene')
 def gene():
     return render_template('gene.html')
+
+@app.route('/Genome')
+def Genome():
+    return render_template('Genome.html')
     
 if __name__ == "__main__":
   app.run(host = "0.0.0.0",debug = True)
